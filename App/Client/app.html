@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pistachio Classification</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <h1>Pistachio Classification</h1>
+    <div class="pistacho-images">
+        <div class="pistacho-type">
+            <p>Kirmizi Pistacho</p>
+            <img src="./Resources/Kirmizi.png" alt="Kirmizi Pistacho">
+        </div>
+        <div class="pistacho-type">
+            <p>Siirt Pistacho</p>
+            <img src="./Resources/Siirt.png" alt="Siirt Pistacho">
+        </div>
+    </div>
+    <div class="dropbox" id="dropbox">
+        <p>Drag and drop an image here or</p>
+        <button class="btn" id="choose-file-btn">Choose a file</button>
+        <input type="file" id="file-input" accept="image/*" style="display:none;">
+        <div id="preview"></div>
+    </div>
+    <button class="btn" id="predict-btn">Predict</button>
+    <table>
+        <thead>
+            <tr>
+                <th>Pistacho Type</th>
+                <th>Probability</th>
+            </tr>
+        </thead>
+        <tbody id="results-table">
+            <tr>
+                <td>Kirmizi</td>
+                <td id="kirmizi-prob">-</td>
+            </tr>
+            <tr>
+                <td>Siirt</td>
+                <td id="siirt-prob">-</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="result-box" id="final-result">
+        Final result will be displayed here
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
