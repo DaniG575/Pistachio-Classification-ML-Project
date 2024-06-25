@@ -3,12 +3,12 @@ This is a small project created to learn how to build an ML model and how to dep
 This model tries to predict if an image of a pistachio is a kirmizi or a siirt pistachio with about 96% accuracy for clear images
 
 ### Problems
-If you run the web application locally there is an issue where the images provided by the web don't work and just user uploaded images work because of a problem with the CORS policy which resolving goes out of the scoope of this problem.
+If you run the web application locally there is an issue where the images provided by the web don't work and just user-uploaded images work because of a problem with the CORS policy which resolving goes out of the scope of this problem.
 
 ### Improval
-The methods used for this project consists in a support vector machine to classify the type of pistachio.
-However, this model is just a simple algorithm that despite performing remarkably well for the task it was designed, it doesn't mean that the same methods can be applied to more complex tasks.
-To achieve more complex image classification, a more complex algorythm or deep learning would be necessary.
+The methods used for this project consist of a support vector machine to classify the type of pistachio.
+However, this model is just a simple algorithm that despite performing remarkably well for the task it was designed, doesn't mean that the same methods can be applied to more complex tasks.
+To achieve more complex image classification, a more complex algorithm or deep learning would be necessary.
 
 ### Try it out
 The code is split between a file used to clean the data, train the model and evaluate the model which is not needed to run the application and the app file where all the necessary components to run the application are. 
@@ -23,7 +23,7 @@ The code is split between a file used to clean the data, train the model and eva
 
 OR you can try the web version using this link:
 
-### Atribution
+### Attribution
 DATASET: https://www.muratkoklu.com/datasets/
 Citation Request:
 1: SINGH D, TASPINAR YS, KURSUN R, CINAR I, KOKLU M, OZKAN IA, LEE H-N., (2022). Classification and Analysis of Pistachio Species with Pre-Trained Deep Learning Models, Electronics,11 (7), 981. https://doi.org/10.3390/electronics11070981. (Open Access)
